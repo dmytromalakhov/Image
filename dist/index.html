@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Image</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/index.css">
@@ -12,6 +15,23 @@
   <header class="header">
     <div class="header__logo logo">
       <a href="#" class="logo__img"><img src="img/logo.png" alt="logo"></a>
+    </div>
+    <div class="header__burger burger">
+      <i class="fas fa-bars burger__icon"></i>
+      <ul class="burger__menu item">
+        <li class="item__li li">
+          <a class="li__a" href="#">О компании</a>
+        </li>
+        <li class="item__li li">
+          <a class="li__a" href="#">Услуги</a>
+        </li>
+        <li class="item__li li">
+          <a class="li__a" href="#">Отзывы</a>
+        </li>
+        <li class="item__li li">
+          <a class="li__a" href="#">Контакты</a>
+        </li>
+      </ul>
     </div>
     <nav class="header__nav nav">
       <a href="#" class="nav__link nav__link_active">О компании</a>
@@ -78,6 +98,11 @@
         коммуникация должна быть двухсторонней.</p>
     </div>
   </main>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
 </div>
 </body>
 </html>
