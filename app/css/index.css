@@ -80,7 +80,7 @@
   grid-template: 1fr/repeat(2, 1fr); }
   .news__img {
     grid-column: 1 / 2;
-    margin: 27px 21px 26px 30px; }
+    margin: 23px 21px 26px 30px; }
   .news__description {
     grid-column: 2 / 3; }
 
@@ -156,7 +156,7 @@
 
 @media (max-width: 326px) {
   .description__heading {
-    margin-top: -55px; } }
+    margin-top: -50px; } }
 
 .block {
   margin-top: 20px; }
@@ -273,9 +273,7 @@
       grid-column: 1 / 2; }
     .quality__description {
       grid-column: 2 / 3;
-      margin-top: 7px;
-      margin-left: 0;
-      margin-right: 0; }
+      margin-top: 7px; }
     .quality:nth-child(1) {
       margin-left: 15px; }
     .quality:nth-child(2) {
